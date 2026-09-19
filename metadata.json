@@ -1,0 +1,6 @@
+{
+  "name": "Anant Interiors",
+  "description": "Portfolio website for Anant Interiors, a fictional interior design studio in Jaipur, Rajasthan, specializing in thoughtful residential and commercial spaces.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anant Interiors | Architectural & Interior Design Studio, Jaipur</title>
+  <meta name="description" content="Anant Interiors is a premier interior design studio in Jaipur, Rajasthan, crafting thoughtful residential, commercial, villa, and turnkey interiors.">
+  <meta property="og:title" content="Anant Interiors | Interior Design Studio, Jaipur">
+  <meta property="og:description" content="Thoughtful residential and commercial interiors that balance timeless design, functionality, and your personal style in Jaipur, Rajasthan.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts: Cormorant Garamond (Editorial Serif) & Plus Jakarta Sans (Clean Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Schema.org JSON-LD Structured Data for Local Business -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HomeAndConstructionBusiness",
+    "name": "Anant Interiors",
+    "description": "Thoughtful residential and commercial interiors that balance timeless design, functionality, and personal style.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Jaipur",
+      "addressRegion": "Rajasthan",
+      "addressCountry": "IN"
+    },
+    "telephone": "+91 98765 43210",
+    "email": "hello@anantinteriors.example",
+    "url": "https://anantinteriors.example"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- =========================================================================
+       NAVIGATION BAR
+       ========================================================================= -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-wrapper">
+      <!-- Brand Logo -->
+      <a href="#home" class="brand-logo" aria-label="Anant Interiors Home">
+        <span class="brand-name">ANANT INTERIORS</span>
+        <span class="brand-location">Jaipur · Rajasthan</span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" aria-label="Primary Navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Desktop CTA & Mobile Toggle -->
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-primary" id="navCtaBtn">Start a Project</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="menu-bar"></span>
+          <span class="menu-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer" id="mobileDrawer" role="dialog" aria-modal="true" aria-label="Mobile Navigation Menu">
+    <div class="mobile-drawer-content">
+      <nav class="mobile-nav-links" aria-label="Mobile Navigation Links">
+        <a href="#home" class="mobile-nav-link active">Home</a>
+        <a href="#services" class="mobile-nav-link">Services</a>
+        <a href="#projects" class="mobile-nav-link">Projects</a>
+        <a href="#about" class="mobile-nav-link">About</a>
+        <a href="#contact" class="mobile-nav-link">Contact</a>
+      </nav>
+      <div class="mobile-drawer-footer">
+        <a href="#contact" class="btn btn-primary">Start a Project</a>
+        <a href="https://wa.me/919876543210?text=Hi%20Anant%20Interiors%2C%20I%27d%20like%20to%20discuss%20an%20interior%20project." 
+           class="btn btn-whatsapp" 
+           target="_blank" 
+           rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.15c-1.49 0-2.95-.4-4.22-1.16l-.3-.18-3.13.82.84-3.05-.2-.31a8.19 8.19 0 0 1-1.25-4.36c0-4.54 3.7-8.24 8.26-8.24 2.2 0 4.28.86 5.84 2.42a8.21 8.21 0 0 1 2.42 5.83c0 4.54-3.7 8.23-8.26 8.23zm4.52-6.17c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.39-1.72-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.84-.86 2.05s.88 2.38 1 2.54c.12.17 1.73 2.64 4.2 3.7.59.25 1.05.4 1.41.51.59.19 1.13.16 1.56.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.29z"/>
+          </svg>
+          Chat on WhatsApp
+        </a>
+        <div class="mobile-drawer-info">
+          <p>Jaipur, Rajasthan · hello@anantinteriors.example</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       SECTION 1: HERO
+       ========================================================================= -->
+  <section class="hero-section" id="home">
+    <div class="container hero-grid">
+      <!-- Left Editorial Content -->
+      <div class="hero-content">
+        <div class="hero-location-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+            <circle cx="12" cy="10" r="3"></circle>
+          </svg>
+          <span>Jaipur · Rajasthan</span>
+        </div>
+
+        <h1 class="hero-headline">Spaces Designed Around the Way You Live.</h1>
+        
+        <p class="hero-description">
+          Thoughtful residential and commercial interiors that balance timeless design, functionality, and your personal style.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary" id="heroStartBtn">Start a Project</a>
+          <a href="#projects" class="btn btn-secondary" id="heroViewWorkBtn">View Our Work</a>
+        </div>
+      </div>
+
+      <!-- Right Visual Showcase -->
+      <div class="hero-visual">
+        <div class="hero-image-wrapper">
+          <img 
+            src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1400&q=85" 
+            alt="Warm architectural interior living space designed with natural wood, stone, and warm sunlight"
+            class="hero-img"
+            loading="eager"
+            width="1400"
+            height="900"
+          >
+        </div>
+        <!-- Architectural floating accent badge -->
+        <div class="hero-floating-card">
+          <div class="floating-icon-box">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="3" y="3" width="18" height="18" rx="2"></rect>
+              <line x1="3" y1="9" x2="21" y2="9"></line>
+              <line x1="9" y1="21" x2="9" y2="9"></line>
+            </svg>
+          </div>
+          <div>
+            <div class="floating-card-title">Architectural Precision</div>
+            <div class="floating-card-subtitle">Rooted in Jaipur's craft & modern living</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       SECTION 2: SERVICES ("What We Design")
+       ========================================================================= -->
+  <section class="services-section section-spacing" id="services">
+    <div class="container">
+      <div class="services-header">
+        <span class="section-tag">Our Studio Capabilities</span>
+        <h2 class="section-title">What We Design</h2>
+        <p class="section-subtitle">
+          From full-scale private homes to purposeful workspaces, we curate every proportion, texture, and architectural detail with care.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Service 1 -->
+        <article class="service-card" id="serviceCard1">
+          <div class="service-card-top">
+            <span class="service-number">01</span>
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                <polyline points="9 22 9 12 15 12 15 22"></polyline>
+              </svg>
+            </div>
+          </div>
+          <div>
+            <h3 class="service-title">Residential Interiors</h3>
+            <p class="service-desc">Complete interior solutions for apartments, villas and homes.</p>
+          </div>
+          <span class="service-arrow" aria-hidden="true">
+            Learn More
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </span>
+        </article>
+
+        <!-- Service 2 -->
+        <article class="service-card" id="serviceCard2">
+          <div class="service-card-top">
+            <span class="service-number">02</span>
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+              </svg>
+            </div>
+          </div>
+          <div>
+            <h3 class="service-title">Commercial Spaces</h3>
+            <p class="service-desc">Thoughtful interiors for offices, cafés, studios and retail spaces.</p>
+          </div>
+          <span class="service-arrow" aria-hidden="true">
+            Learn More
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </span>
+        </article>
+
+        <!-- Service 3 -->
+        <article class="service-card" id="serviceCard3">
+          <div class="service-card-top">
+            <span class="service-number">03</span>
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+                <polyline points="10 9 9 9 8 9"></polyline>
+              </svg>
+            </div>
+          </div>
+          <div>
+            <h3 class="service-title">Turnkey Interiors</h3>
+            <p class="service-desc">From concept and planning to execution and final styling.</p>
+          </div>
+          <span class="service-arrow" aria-hidden="true">
+            Learn More
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </span>
+        </article>
+
+        <!-- Service 4 -->
+        <article class="service-card" id="serviceCard4">
+          <div class="service-card-top">
+            <span class="service-number">04</span>
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="12" y1="8" x2="12" y2="12"></line>
+                <line x1="12" y1="16" x2="12.01" y2="16"></line>
+              </svg>
+            </div>
+          </div>
+          <div>
+            <h3 class="service-title">Custom Design</h3>
+            <p class="service-desc">Personalized furniture, materials and details tailored to each space.</p>
+          </div>
+          <span class="service-arrow" aria-hidden="true">
+            Learn More
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       SECTION 3: PROJECT GALLERY
+       ========================================================================= -->
+  <section class="gallery-section section-spacing" id="projects">
+    <div class="container">
+      <div class="gallery-header-row">
+        <div>
+          <span class="section-tag">Portfolio</span>
+          <h2 class="section-title">Selected Projects</h2>
+          <p class="section-subtitle">
+            A curated collection of homes, private residences, and creative workspaces shaped across Jaipur and Rajasthan.
+          </p>
+        </div>
+
+        <!-- Filter tabs for responsive user interaction -->
+        <div class="gallery-filters" role="tablist" aria-label="Project Categories">
+          <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All Works</button>
+          <button class="filter-btn" data-filter="residential" role="tab" aria-selected="false">Residential</button>
+          <button class="filter-btn" data-filter="commercial" role="tab" aria-selected="false">Commercial</button>
+        </div>
+      </div>
+
+      <!-- Architectural Gallery Grid: 6 Real Interior Design Projects -->
+      <div class="gallery-grid" id="projectsGrid">
+        
+        <!-- Project 1: Jaipur Residence -->
+        <article class="gallery-item" data-category="residential" id="projectItem1">
+          <div class="gallery-image-box">
+            <img 
+              src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80" 
+              alt="Jaipur Residence - Architectural living room with warm sandstone and natural light"
+              class="gallery-img"
+              loading="lazy"
+            >
+            <div class="gallery-overlay">
+              <span class="gallery-category">Residential Interior</span>
+              <h3 class="gallery-title">Jaipur Residence</h3>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2: Aravali Villa -->
+        <article class="gallery-item" data-category="residential" id="projectItem2">
+          <div class="gallery-image-box">
+            <img 
+              src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80" 
+              alt="Aravali Villa - Luxury residential interior overlooking hills with warm timber finishes"
+              class="gallery-img"
+              loading="lazy"
+            >
+            <div class="gallery-overlay">
+              <span class="gallery-category">Luxury Residential</span>
+              <h3 class="gallery-title">Aravali Villa</h3>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3: Minimalist Apartment -->
+        <article class="gallery-item" data-category="residential" id="projectItem3">
+          <div class="gallery-image-box">
+            <img 
+              src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80" 
+              alt="Minimalist Apartment - Clean lines and warm neutral tones"
+              class="gallery-img"
+              loading="lazy"
+            >
+            <div class="gallery-overlay">
+              <span class="gallery-category">Modern Residential</span>
+              <h3 class="gallery-title">Minimalist Apartment</h3>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 4: Studio Workspace -->
+        <article class="gallery-item" data-category="commercial" id="projectItem4">
+          <div class="gallery-image-box">
+            <img 
+              src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80" 
+              alt="Studio Workspace - Commercial interior for creative professionals with ergonomic wooden layout"
+              class="gallery-img"
+              loading="lazy"
+            >
+            <div class="gallery-overlay">
+              <span class="gallery-category">Commercial Interior</span>
+              <h3 class="gallery-title">Studio Workspace</h3>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 5: Contemporary Living -->
+        <article class="gallery-item" data-category="residential" id="projectItem5">
+          <div class="gallery-image-box">
+            <img 
+              src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=80" 
+              alt="Contemporary Living - Warm bespoke residential lounge with textured lime plaster walls"
+              class="gallery-img"
+              loading="lazy"
+            >
+            <div class="gallery-overlay">
+              <span class="gallery-category">Residential Interior</span>
+              <h3 class="gallery-title">Contemporary Living</h3>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 6: Heritage-Inspired Home -->
+        <article class="gallery-item" data-category="residential" id="projectItem6">
+          <div class="gallery-image-box">
+            <img 
+              src="https://images.unsplash.com/photo-1616046229478-9901c5536a45?auto=format&fit=crop&w=1400&q=80" 
+              alt="Heritage-Inspired Home - Handcrafted woodwork and regional stone accents"
+              class="gallery-img"
+              loading="lazy"
+            >
+            <div class="gallery-overlay">
+              <span class="gallery-category">Residential Interior</span>
+              <h3 class="gallery-title">Heritage-Inspired Home</h3>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       SECTION 4: ABOUT ("Design With Intention.")
+       ========================================================================= -->
+  <section class="about-section section-spacing" id="about">
+    <div class="container about-grid">
+      <!-- Left Editorial Image -->
+      <div class="about-image-wrapper">
+        <div class="about-image-box">
+          <img 
+            src="https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=1000&q=80" 
+            alt="Anant Interiors studio sample board, curated stone samples, and architectural layout plans"
+            class="about-img"
+            loading="lazy"
+          >
+        </div>
+        <div class="about-image-badge">
+          <p class="about-badge-text">"Quiet design creates timeless sanctuary."</p>
+          <span class="about-badge-city">Studio Jaipur</span>
+        </div>
+      </div>
+
+      <!-- Right Editorial Story & Core Tenets -->
+      <div class="about-content">
+        <span class="section-tag">Studio Story</span>
+        <h2 class="section-title">Design With Intention.</h2>
+
+        <p class="about-lead">
+          Anant Interiors approaches each project by understanding the client’s lifestyle, space, and functional requirements.
+        </p>
+
+        <p class="about-body">
+          We believe true spatial beauty arises from restraint, balanced natural light, and the honest expression of materials. Based in Jaipur, we draw quiet inspiration from Rajasthan’s rich architectural heritage—its climate-responsive courtyards, tactile stone, and fine craftsmanship—interpreting them into calm, contemporary spaces suited for modern living.
+        </p>
+
+        <!-- 4 Key Principles explicitly requested -->
+        <div class="about-pillars-grid">
+          <div class="pillar-item">
+            <div class="pillar-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span>Thoughtful Planning</span>
+            </div>
+            <p class="pillar-desc">Analyzing circulation, natural daylight, and daily rituals before drawing a single line.</p>
+          </div>
+
+          <div class="pillar-item">
+            <div class="pillar-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span>Material Selection</span>
+            </div>
+            <p class="pillar-desc">Honest, tactile palettes of natural stone, warm teak, linen, and lime plaster.</p>
+          </div>
+
+          <div class="pillar-item">
+            <div class="pillar-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span>Functional Layouts</span>
+            </div>
+            <p class="pillar-desc">Ergonomic spatial compositions that feel natural, open, and effortless to live in.</p>
+          </div>
+
+          <div class="pillar-item">
+            <div class="pillar-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span>Personalized Design</span>
+            </div>
+            <p class="pillar-desc">Tailored joinery and bespoke accents crafted exclusively around your taste.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       SECTION 5: DESIGN PROCESS ("From Idea to Space")
+       ========================================================================= -->
+  <section class="process-section section-spacing" id="process">
+    <div class="container">
+      <div class="process-header">
+        <span class="section-tag">Methodology</span>
+        <h2 class="section-title">From Idea to Space</h2>
+        <p class="section-subtitle">
+          Our structured, collaborative process ensures clarity, precision, and ease at every stage of the design journey.
+        </p>
+      </div>
+
+      <div class="process-steps">
+        <!-- Step 1 -->
+        <div class="process-card" id="processStep1">
+          <div class="process-card-step">01</div>
+          <h3 class="process-card-title">Discover</h3>
+          <p class="process-card-desc">Understand the client's needs, lifestyle and space.</p>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="process-card" id="processStep2">
+          <div class="process-card-step">02</div>
+          <h3 class="process-card-title">Design</h3>
+          <p class="process-card-desc">Develop concepts, layouts and material direction.</p>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="process-card" id="processStep3">
+          <div class="process-card-step">03</div>
+          <h3 class="process-card-title">Refine</h3>
+          <p class="process-card-desc">Review details and finalize the design.</p>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="process-card" id="processStep4">
+          <div class="process-card-step">04</div>
+          <h3 class="process-card-title">Create</h3>
+          <p class="process-card-desc">Bring the final vision to life.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       SECTION 6: CONTACT ("Let's Create Your Space.")
+       ========================================================================= -->
+  <section class="contact-section section-spacing" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <!-- Left Contact Information & WhatsApp CTA -->
+        <div class="contact-info">
+          <span class="section-tag">Start a Dialogue</span>
+          <h2 class="section-title">Let’s Create Your Space.</h2>
+          <p class="section-subtitle">
+            Have a home, office or commercial space in mind? Tell us a little about your project.
+          </p>
+
+          <div class="contact-channels">
+            <div class="contact-channel-item">
+              <div class="channel-icon-box" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div>
+                <div class="channel-label">Studio Location</div>
+                <div class="channel-value">Jaipur, Rajasthan, India</div>
+              </div>
+            </div>
+
+            <div class="contact-channel-item">
+              <div class="channel-icon-box" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div>
+                <div class="channel-label">Email Enquiries</div>
+                <div class="channel-value">
+                  <a href="mailto:hello@anantinteriors.example">hello@anantinteriors.example</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-channel-item">
+              <div class="channel-icon-box" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+              </div>
+              <div>
+                <div class="channel-label">Direct Telephone</div>
+                <div class="channel-value">
+                  <a href="tel:+919876543210">+91 98765 43210</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Prominent Dedicated WhatsApp Card -->
+          <div class="contact-whatsapp-box" id="whatsappCard">
+            <div class="whatsapp-box-header">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.15c-1.49 0-2.95-.4-4.22-1.16l-.3-.18-3.13.82.84-3.05-.2-.31a8.19 8.19 0 0 1-1.25-4.36c0-4.54 3.7-8.24 8.26-8.24 2.2 0 4.28.86 5.84 2.42a8.21 8.21 0 0 1 2.42 5.83c0 4.54-3.7 8.23-8.26 8.23zm4.52-6.17c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.39-1.72-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.84-.86 2.05s.88 2.38 1 2.54c.12.17 1.73 2.64 4.2 3.7.59.25 1.05.4 1.41.51.59.19 1.13.16 1.56.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.29z"/>
+              </svg>
+              <h3 class="whatsapp-box-title">Instant Consultation on WhatsApp</h3>
+            </div>
+            <p class="whatsapp-box-desc">
+              Looking for a quick response, sharing floor plans, or booking a studio consultation? Connect directly with our design leads.
+            </p>
+            <a 
+              href="https://wa.me/919876543210?text=Hi%20Anant%20Interiors%2C%20I%27d%20like%20to%20discuss%20an%20interior%20project." 
+              class="btn btn-whatsapp" 
+              id="whatsappMainBtn"
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.15c-1.49 0-2.95-.4-4.22-1.16l-.3-.18-3.13.82.84-3.05-.2-.31a8.19 8.19 0 0 1-1.25-4.36c0-4.54 3.7-8.24 8.26-8.24 2.2 0 4.28.86 5.84 2.42a8.21 8.21 0 0 1 2.42 5.83c0 4.54-3.7 8.23-8.26 8.23zm4.52-6.17c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.39-1.72-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.84-.86 2.05s.88 2.38 1 2.54c.12.17 1.73 2.64 4.2 3.7.59.25 1.05.4 1.41.51.59.19 1.13.16 1.56.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.29z"/>
+              </svg>
+              Chat on WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Contact Form Card -->
+        <div class="contact-form-wrapper">
+          <div class="contact-form-card">
+            
+            <!-- Active Project Enquiry Form (Frontend Only) -->
+            <form id="projectForm" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="userName" class="form-label">Your Name *</label>
+                  <input 
+                    type="text" 
+                    id="userName" 
+                    name="userName" 
+                    class="form-input" 
+                    placeholder="e.g. Aarti Singhania" 
+                    required
+                  >
+                  <div class="form-field-error">Please provide your full name.</div>
+                </div>
+
+                <div class="form-group">
+                  <label for="userPhone" class="form-label">Phone Number *</label>
+                  <input 
+                    type="tel" 
+                    id="userPhone" 
+                    name="userPhone" 
+                    class="form-input" 
+                    placeholder="e.g. +91 98290 12345" 
+                    required
+                  >
+                  <div class="form-field-error">Please enter a valid phone number.</div>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="userEmail" class="form-label">Email Address *</label>
+                  <input 
+                    type="email" 
+                    id="userEmail" 
+                    name="userEmail" 
+                    class="form-input" 
+                    placeholder="name@example.com" 
+                    required
+                  >
+                  <div class="form-field-error">Please enter a valid email address.</div>
+                </div>
+
+                <div class="form-group">
+                  <label for="projectType" class="form-label">Project Type *</label>
+                  <select id="projectType" name="projectType" class="form-select" required>
+                    <option value="" disabled selected>Select space category</option>
+                    <option value="residential-villa">Residential Villa</option>
+                    <option value="residential-apartment">Residential Apartment / Penthouse</option>
+                    <option value="commercial-office">Commercial Office / Studio</option>
+                    <option value="hospitality-cafe">Café / Restaurant / Retail</option>
+                    <option value="turnkey-full">Turnkey Complete Renovation</option>
+                    <option value="custom-consult">Custom Furniture & Styling</option>
+                  </select>
+                  <div class="form-field-error">Please select a project type.</div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="userMessage" class="form-label">Message / Space Details *</label>
+                <textarea 
+                  id="userMessage" 
+                  name="userMessage" 
+                  class="form-textarea" 
+                  rows="4" 
+                  placeholder="Share details regarding your space, approximate carpet area, location in Jaipur, and your timeline..."
+                  required
+                ></textarea>
+                <div class="form-field-error">Please provide a brief description of your project.</div>
+              </div>
+
+              <div class="form-actions">
+                <button type="submit" class="btn btn-primary form-submit-btn" id="submitEnquiryBtn">
+                  Submit Project Enquiry
+                </button>
+              </div>
+            </form>
+
+            <!-- Friendly Client-Side Success Feedback State -->
+            <div class="form-success-message" id="formSuccessMessage" role="status" aria-live="polite">
+              <div class="success-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+              </div>
+              <h3 class="success-title">Thank You For Your Enquiry</h3>
+              <p class="success-text">
+                Your project brief has been recorded. As an editorial client-side demonstration, you can also continue directly on WhatsApp to discuss your floor plan and timeline immediately.
+              </p>
+              <div class="success-actions">
+                <a 
+                  href="https://wa.me/919876543210?text=Hi%20Anant%20Interiors%2C%20I%27d%20like%20to%20discuss%20an%20interior%20project." 
+                  class="btn btn-whatsapp" 
+                  id="dynamicWhatsAppBtn"
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.15c-1.49 0-2.95-.4-4.22-1.16l-.3-.18-3.13.82.84-3.05-.2-.31a8.19 8.19 0 0 1-1.25-4.36c0-4.54 3.7-8.24 8.26-8.24 2.2 0 4.28.86 5.84 2.42a8.21 8.21 0 0 1 2.42 5.83c0 4.54-3.7 8.23-8.26 8.23zm4.52-6.17c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.39-1.72-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.84-.86 2.05s.88 2.38 1 2.54c.12.17 1.73 2.64 4.2 3.7.59.25 1.05.4 1.41.51.59.19 1.13.16 1.56.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.29z"/>
+                  </svg>
+                  Chat on WhatsApp
+                </a>
+                <button type="button" class="btn btn-secondary" id="resetFormBtn">
+                  Send Another Enquiry
+                </button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       SECTION 7: FOOTER
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <!-- Brand identity -->
+        <div class="footer-brand">
+          <div class="footer-logo">ANANT INTERIORS</div>
+          <div class="footer-location">Jaipur · Rajasthan</div>
+          <p class="footer-tagline">
+            Thoughtful residential and commercial interiors that balance timeless design, functionality, and your personal style.
+          </p>
+        </div>
+
+        <!-- Quick Navigation -->
+        <div>
+          <h4 class="footer-heading">Studio Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#home" class="footer-link">Home</a></li>
+            <li><a href="#services" class="footer-link">Services</a></li>
+            <li><a href="#projects" class="footer-link">Projects</a></li>
+            <li><a href="#about" class="footer-link">About</a></li>
+            <li><a href="#contact" class="footer-link">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Direct Contact & WhatsApp -->
+        <div>
+          <h4 class="footer-heading">Studio Inquiries</h4>
+          <p class="footer-contact-item">
+            Jaipur, Rajasthan, India<br>
+            <a href="mailto:hello@anantinteriors.example">hello@anantinteriors.example</a><br>
+            <a href="tel:+919876543210">+91 98765 43210</a>
+          </p>
+          <div style="margin-top: 1.25rem;">
+            <a 
+              href="https://wa.me/919876543210?text=Hi%20Anant%20Interiors%2C%20I%27d%20like%20to%20discuss%20an%20interior%20project." 
+              class="btn btn-whatsapp" 
+              style="padding: 0.7rem 1.4rem; font-size: 0.82rem;"
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <svg viewBox="0 0 24 24" style="width: 16px; height: 16px;" aria-hidden="true">
+                <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.15c-1.49 0-2.95-.4-4.22-1.16l-.3-.18-3.13.82.84-3.05-.2-.31a8.19 8.19 0 0 1-1.25-4.36c0-4.54 3.7-8.24 8.26-8.24 2.2 0 4.28.86 5.84 2.42a8.21 8.21 0 0 1 2.42 5.83c0 4.54-3.7 8.23-8.26 8.23zm4.52-6.17c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.39-1.72-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.84-.86 2.05s.88 2.38 1 2.54c.12.17 1.73 2.64 4.2 3.7.59.25 1.05.4 1.41.51.59.19 1.13.16 1.56.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.29z"/>
+              </svg>
+              Chat on WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom">
+        <div class="footer-copyright">
+          © 2026 Anant Interiors. All rights reserved.
+        </div>
+        <div class="footer-badge">
+          Architectural Interior Studio · Jaipur
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       LIGHTBOX PREVIEW MODAL
+       ========================================================================= -->
+  <div class="lightbox-modal" id="lightboxModal" role="dialog" aria-modal="true" aria-label="Project Preview">
+    <div class="lightbox-content">
+      <button class="lightbox-close-btn" id="lightboxClose" aria-label="Close project preview">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+      <div class="lightbox-media">
+        <img src="" alt="" id="lightboxImg">
+      </div>
+      <div class="lightbox-caption">
+        <div>
+          <div class="lightbox-category-tag" id="lightboxCategory">Residential Interior</div>
+          <h4 class="lightbox-title-text" id="lightboxTitle">Project Title</h4>
+        </div>
+        <a href="#contact" class="btn btn-secondary" style="padding: 0.6rem 1.2rem; font-size: 0.8rem;" onclick="document.getElementById('lightboxClose').click();">
+          Enquire About This Project
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Vanilla JavaScript -->
+  <script src="script.js" defer></script>
+</body>
+</html>
